@@ -1,0 +1,92 @@
+:root {
+    --primary: #FFABAB;
+    --secondary: #FFCBC1;
+    --background: #F3FFE3;
+    --success: #F0C998;
+    --warning: #FDFD96;
+    --error: #A0DD85;
+    --info: #B7CFB7;
+    --text-primary: #6EB5FF;
+    --text-secondary: #B28DFF;
+    --text-white: #FFFFFF;
+    --card-background: #FFB5E8;
+    --border: #808080;
+    --hover: #C0C0C0;
+}
+
+body {
+    background-color: var(--background);
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.box {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    line-height: 100px;
+    color: var(--border);
+  	display: inline-block;
+    font-weight: bold;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: var(--text-white);
+}
+
+.secondary {
+    background-color: var(--secondary);
+}
+
+.background {
+    background-color: var(--background);
+}
+
+.success {
+    background-color: var(--success);
+    color: var(--text-white);
+}
+
+.warning {
+    background-color: var(--warning);
+}
+
+.error {
+    background-color: var(--error);
+    color: var(--text-white);
+}
+
+.info {
+    background-color: var(--info);
+    color: var(--text-white);
+}
+
+.text-primary {
+    background-color: var(--text-primary);
+    color: var(--text-white);
+}
+
+.text-secondary {
+    background-color: var(--text-secondary);
+    color: var(--text-white);
+}
+
+.text-white {
+    background-color: var(--text-white);
+}
+
+.card-background {
+    background-color: var(--card-background);
+}
+
+.border {
+    background-color: var(--border);
+    color: var(--text-white);
+}
+
+.hover {
+    background-color: var(--hover);
+  	color: var(--text-white);
+}
